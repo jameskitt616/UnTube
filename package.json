@@ -6,12 +6,13 @@
         "@symfony/webpack-encore": "^1.7.0",
         "core-js": "^3.0.0",
         "file-loader": "^6.2.0",
+        "node-sass": "^7.0.1",
+        "postcss": "^8.4.6",
         "postcss-loader": "^6.0.0",
         "regenerator-runtime": "^0.13.2",
         "sass": "^1.49.8",
         "sass-loader": "^12.0.0",
-        "webpack-notifier": "^1.6.0",
-        "postcss": "^8.4.6"
+        "webpack-notifier": "^1.6.0"
     },
     "license": "MIT",
     "private": false,
@@ -20,5 +21,9 @@
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production --progress"
+    },
+    "dependencies": {
+        "jquery": "^3.6.0",
+        "tailwindcss": "^2.2.19"
     }
 }
