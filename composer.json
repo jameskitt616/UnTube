@@ -1,20 +1,35 @@
 {
     "type": "project",
-    "license": "proprietary",
+    "license": "MIT",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.2.5",
+        "php": "7.4.3",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "doctrine/doctrine-bundle": "^2.5.6",
+        "doctrine/doctrine-migrations-bundle": "^3.2.2",
+        "doctrine/orm": "^2.11.1",
+        "ramsey/uuid": "^4.2.3",
         "symfony/console": "5.4.*",
         "symfony/dotenv": "5.4.*",
         "symfony/flex": "^1.17|^2",
+        "symfony/form": "5.4.*",
         "symfony/framework-bundle": "5.4.*",
+        "symfony/messenger": "5.4.*",
+        "symfony/proxy-manager-bridge": "5.4.*",
+        "symfony/security-bundle": "5.4.*",
+        "symfony/translation": "5.4.*",
+        "symfony/twig-bundle": "5.4.*",
+        "symfony/webpack-encore-bundle": "^v1.14.0",
         "symfony/runtime": "5.4.*",
         "symfony/yaml": "5.4.*"
     },
     "require-dev": {
+        "symfony/debug-bundle": "5.2.*",
+        "symfony/stopwatch": "^5.2",
+        "symfony/var-dumper": "5.2.*",
+        "symfony/web-profiler-bundle": "^5.2"
     },
     "config": {
         "allow-plugins": {
