@@ -23,7 +23,8 @@
         "symfony/twig-bundle": "5.4.*",
         "symfony/webpack-encore-bundle": "^v1.14.0",
         "symfony/runtime": "5.4.*",
-        "symfony/yaml": "5.4.*"
+        "symfony/yaml": "5.4.*",
+        "ext-json": "*"
     },
     "require-dev": {
         "symfony/debug-bundle": "5.2.*",
