@@ -3,10 +3,12 @@
 {% block body %}
     <div class="flex flex-col">
         <div class="flex p-3 z-10 fixed top-0 bg-gray-900 w-full" style="background-color: #202020;">
-            <div class="text-3xl pl-2">
-                <i class="fas fa-bars"></i>
-                <span class="select-none cursor-pointer rounded hover:bg-gray-200 px-1">
-                    <i class="fas fa-play"></i> UnTube
+            <div class="text-2xl pl-2">
+                {# TODO: css toggle sidebar #}
+                <i class="cursor-pointer fas fa-bars"></i>
+                <span class="select-none cursor-pointer rounded pl-2">
+                    <i class="fas fa-play"></i>
+                    UnTube
                 </span>
             </div>
 
@@ -21,10 +23,10 @@
         </div>
 
         <div class="flex-1 bg-grey-lightest z-0 p-5 mt-20">
-            <div class="flex flex-wrap max-w-5xl mx-auto">
+            <div class="flex flex-wrap max-w-screen-2xl mx-auto">
                 <div class="w-full md:flex-1">
 
-                    <div style="width: 760px; height: 400px;" class="bg-black relative"></div>
+                    <div style="height: 600px;" class="w-full bg-black relative"></div>
                     {#                    <div class="bg-black relative mb-3" style="padding-top: 55%"> #}
                     {#                        <iframe  class="w-full h-full absolute pin-x pin-t" #}
                     {#                                 src="https://www.youtube.com/embed/F7-bW2y6lcI" #}
@@ -35,8 +37,8 @@
 
                     <div class="flex flex-wrap items-end">
                         <div class="pb-2">
-                            <h1 class="text-xl my-2">Title</h1>
-                            <span class="text-base">69 views</span>
+                            <h1 class="text-xl my-2">The Ultimate Guide to Firefox Hardening in 2022</h1>
+                            <span class="text-base">69 views &#9679; Feb 23, 2022</span>
                         </div>
                         <div class="ml-auto">
                             <div class="flex relative pb-2">
@@ -54,37 +56,37 @@
                     </div>
                 </div>
 
-                <aside class="w-full md:max-w-xs xl:max-w-full xl:w-1/4 md:pl-5 mt-5 md:mt-0">
+                <div class="w-full md:max-w-xs xl:w-1/4 md:pl-5 mt-5 md:mt-0">
                     <div class="w-full">
                         <div class="flex w-full items-center justify-between mb-3">
                             <span>Suggestions</span>
                         </div>
-                        <div class="flex flex-wrap w-full mb-3">
-                            <div class="w-1/2 bg-black" style="padding-top: 30%"></div>
+                        <a class="flex flex-wrap w-full my-3">
+                            <div class="w-1/2 bg-black"></div>
                             <div class="w-1/2 pl-2">
-                                <h3 class="text-base mb-2">Title</h3>
-                                <p class="text-sm mb-1">Channel</p>
-                                <p class="text-sm mb-1">123K views</p>
+                                <div class="text-base mb-2 truncate" title="The Ultimate Guide to Firefox Hardening in 2022">The Ultimate Guide to Firefox Hardening in 2022</div>
+                                <div class="text-sm mb-1">Techlore</div>
+                                <div class="text-sm mb-1">123K views</div>
                             </div>
-                        </div>
-                        <div class="flex flex-wrap w-full mb-3">
-                            <div class="w-1/2 bg-black" style="padding-top: 30%"></div>
+                        </a>
+                        <a class="flex flex-wrap w-full my-3">
+                            <div class="w-1/2 bg-black"></div>
                             <div class="w-1/2 pl-2">
-                                <h3 class="text-base mb-2">Title</h3>
-                                <p class="text-sm mb-1">Channel</p>
-                                <p class="text-sm mb-1">3K views</p>
+                                <div class="text-base mb-2 truncate" title="The Ultimate Guide to Firefox Hardening in 2022">The Ultimate Guide to Firefox Hardening in 2022</div>
+                                <div class="text-sm mb-1">Techlore</div>
+                                <div class="text-sm mb-1">123K views</div>
                             </div>
-                        </div>
-                        <div class="flex flex-wrap w-full mb-3">
-                            <div class="w-1/2 bg-black" style="padding-top: 30%"></div>
+                        </a>
+                        <a class="flex flex-wrap w-full my-3">
+                            <div class="w-1/2 bg-black"></div>
                             <div class="w-1/2 pl-2">
-                                <h3 class="text-base mb-2">Title</h3>
-                                <p class="text-sm mb-1">Channel</p>
-                                <p class="text-sm mb-1">4K views</p>
+                                <div class="text-base mb-2 truncate" title="The Ultimate Guide to Firefox Hardening in 2022">The Ultimate Guide to Firefox Hardening in 2022</div>
+                                <div class="text-sm mb-1">Techlore</div>
+                                <div class="text-sm mb-1">123K views</div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                </aside>
+                </div>
             </div>
         </div>
     </div>
